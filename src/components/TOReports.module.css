@@ -1,0 +1,90 @@
+
+.torContainer{
+    width: 100%;
+    height: fit-content;
+}
+
+.torForm{
+    display: block;
+    justify-content: center;
+    margin-top: 30px;
+    padding-left: 10px;
+}
+
+th {
+    font-family:sans-serif;
+    font-size: small;
+    color: rgb(243, 243, 0);
+    gap: 10px;
+}
+
+td {
+    background-color: rgba(10, 32, 25, 0.096);
+    color: yellow;
+    gap: 10px;
+}
+td>input{
+    width: 140px;
+    border-radius: 8px;
+    margin-left: 4px;
+}
+td>input:hover{
+    width: 140px;
+    border-radius: 8px;
+    margin-left: 4px;
+    color: white;
+    background-color: rgba(57, 107, 172, 0.712) ;
+    cursor: pointer;
+}
+td>select{
+    width: 160px;
+    border-radius: 8px;
+    margin-left: 4px;
+}
+td>select:hover{
+    width: 160px;
+    border-radius: 8px;
+    margin-left: 4px;
+    color: white;
+    background-color: rgba(16, 89, 184, 0.712) ;
+    cursor: pointer;
+}
+
+.searchbtn{
+    width: 80px;
+    background-color: rgba(16, 89, 184, 0.712);
+    border-radius: 10px;
+    border-style: solid;
+    border-color: azure;
+    font-size: small;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.searchbtn:hover{
+    width: 80px;
+    background-color: rgb(16, 89, 184);
+    border-radius: 10px;
+    border-style: solid;
+    border-color: azure;
+    font-size: small;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.clearbtn{
+    width: 80px;
+    margin-left: 10px;
+    background-color: rgba(247, 63, 8, 0.712);
+    border-radius: 10px;
+    border-style: solid;
+    border-color: azure;
+    font-size: small;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.clearbtn:hover{
+    width: 80px;
+    margin-left: 10px;
+    background-color: rgb(247, 64, 8);
+    border-radius: 10px;
+    border-style: solid;
+    border-color: azure;
+    font-size: small;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}

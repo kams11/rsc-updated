@@ -1,0 +1,93 @@
+.ctoTableContainer{
+    width: 100%;
+    padding-bottom: 50px;
+}
+.ctoTableBody{
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+}
+
+.ctoTableTitle{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 74% 26%;
+}
+.ctoTT{
+    display: inline;
+    text-align: left;
+    padding-left: 20px;
+}
+.ctoTTbtnRead{
+    width: 200px;
+    height: 40px;
+    font-size: small;
+    background-color:rgb(223, 202, 85);
+    color:white;
+    border: 2px solid yellow;
+    border-radius:8px;
+}
+.ctoTTbtnRead:hover{
+    width: 200px;
+    height: 40px;
+    font-size: small;
+    background-color:rgb(248, 212, 8);
+    color:white;
+    border: 2px solid yellow;
+    border-radius:8px;
+    font-weight: 600;
+}
+
+.ctoTTbtnCreate{
+    width: 100px;
+    height: 40px;
+    font-size: small;
+    background-color:green;
+    color:white;
+    border-radius:8px;
+    border: 2px solid greenyellow;
+    margin-left:10px;
+}
+.ctoTTbtnCreate:hover{
+    width: 100px;
+    height: 40px;
+    font-size: small;
+    background-color:rgb(7, 247, 7);
+    color:white;
+    border-radius:8px;
+    border: 2px solid greenyellow;
+    margin-left:10px;
+    font-weight: 600;
+}
+
+.ctoThead{
+    border: 1px ridge rgb(127, 79, 238);
+    border-radius: 20px;
+}
+.ctoThead>tr>th {
+    background-color: rgba(62, 231, 178, 0.959);
+    border: 2.5px solid  rgb(60, 49, 87);
+    color: rgb(30, 99, 177);
+    width: 70px;
+    height: 20px;
+    font-size: small;
+}
+
+.ctoTbody>tr>td {
+    background-color: rgba(188, 250, 230, 0.959);
+    border: 2px solid  rgb(60, 49, 87);
+    color: rgb(30, 99, 177);
+    width: 65px;
+    height: 20px;
+    min-height: 20px;
+    font-size: small;
+}
+.ctoTbody>tr>td:hover {
+    background-color: rgb(10, 169, 169);
+    color: rgb(183, 186, 189);
+    font-weight: 600;
+    width: 65px;
+    height: 20px;
+    min-height: 20px;
+    font-size: small;
+}
