@@ -40,10 +40,10 @@ const UserReporting = () => {
         <div className={UR.reports} >
 
         <div className={UR.report1}> 
-        {/* <a style={{textDecoration:"none",color:"white"}} href="/UserReporting"> */}
+        
                  <div className={UR.toReports} onClick={toggleHandlerK1} style={{height:"60px",width:"60px",border:"2px solid rgba(247, 63, 8, 0.712)",borderRadius:"30px",marginLeft:"80px"}}><MdOutlineNoteAlt size={40} style={{marginTop:"7px"}}/></div> <br />
                  <p style={{paddingLeft:"50px",fontWeight:"600",color:"white"}} >Transform Order Reports</p>
-                 {/* </a> */}
+                 
           </div>
 
           <div className={UR.report2}> 

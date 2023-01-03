@@ -15,46 +15,44 @@ const WorkOrderReports = () => {
         <div className={WOR.worContainer}>
         <div className={WOR.TObody} >
         <form method="GET" className={WOR.woForm}>
-            
-                    <tr>
-                        <th>Transformation Site</th>
-                        <th>Transform Order Number</th>
-                        <th>Ship to Country</th>
-                        <th>Work Order Status</th>
-                        <th>Work Order Number</th>
-                        <th>Date Created</th>
-                        <th>Work Station</th>
-                        <th>Product Number</th>
-                    </tr>
-                
-                  <tr>
-                    
-                  <td><select id="sites" name="sites">
+        <div className={WOR.worFormBody}>
+            <div className={WOR.worFormRow1}>
+              <div className={WOR.fr}> <label htmlFor="">Transformation Site</label></div>
+              <div className={WOR.fr}> <label htmlFor="">Transform Order Number</label></div>
+              <div className={WOR.fr}> <label htmlFor="">Ship to Country</label></div>
+              <div className={WOR.fr}> <label htmlFor="">Work Order Status</label></div>
+              <div className={WOR.fr}> <label htmlFor="">Work Order Number</label></div>
+              <div className={WOR.fr}> <label htmlFor="">Date Created</label></div>
+              <div className={WOR.fr}> <label htmlFor="">Work Station</label></div>
+              <div className={WOR.fr}> <label htmlFor="">Product Number</label></div>
+            </div>
+            <div className={WOR.worFormRow2}>
+                  <div className={WOR.fr}><select id="sites" name="sites">
                                 <option value="111">Courcelles,Belgium</option>
                                 <option value="222">Saab</option>
                                 <option value="333">Fiat</option>
                                 <option value="444">Audi</option>
-                        </select></td>
-                    <td><input type="text" /></td>
-                    <td><input type="text" /></td>
-                    <td><select id="status" name="status">
+                        </select>
+                  </div>
+                  <div className={WOR.fr}><input type="text" /></div>
+                  <div className={WOR.fr}><input type="text" /></div>
+                  <div className={WOR.fr}><select id="status" name="status">
                                 <option value="111"> <input type="checkbox" /> CANCEL</option>
                                 <option value="222"><input type="checkbox" />COMPLETED</option>
                                 <option value="333"><input type="checkbox" />CREATED</option>
                                 <option value="444"><input type="checkbox" />IN-PROCESS</option>
                                 <option value="444"><input type="checkbox" />ON-HOLD</option>
-                        </select></td>
-                    <td><input type="text" /></td>
-                    <td><input type="date" onFocus="(this.type='date')" /></td> 
-                    <td><input type="text" /></td>
-                    <td><input type="text" /></td>
-                    
-                  </tr>
-                
-                
-                
+                        </select></div>
+                  <div className={WOR.fr}><input type="text" /></div>
+                  <div className={WOR.fr}><input type="text" /></div>
+                  <div className={WOR.fr}><input type="date" onFocus="(this.type='date')" /></div>
+                  <div className={WOR.fr}><input type="text" /></div>
+                        
+            </div>
+        </div>    
+                 
   </form>
-  <br /> <br />
+  
   
         </div>
         <div style={{marginTop:"20px",display:"block",justifyContent:"space-between"}}>

@@ -13,19 +13,16 @@ const DBRecord = () => {
     <>
         
         <div className={DBR.TObody} style={{display:"inline-flex"}}>
-        <form method="GET" >
-            
-                    <tr>
-                        <th>Work Order Number</th>
-                    </tr>
-                
-                  <tr>
-                    <td><input type="text" /></td>
-                    
-                  </tr>
-                
-                
-                
+        <form method="GET" className={DBR.woForm}>
+        <div className={DBR.worFormBody}>
+            <div className={DBR.worFormRow1}>
+            <div className={DBR.fr}> <label htmlFor="">Work Order Number</label></div>
+            </div>
+            <div className={DBR.worFormRow1}>
+              <div className={DBR.fr}><input type="text" /></div>
+            </div>
+        </div>    
+                     
   </form>
   
         </div>

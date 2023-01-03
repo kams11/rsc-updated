@@ -1,0 +1,13 @@
+.huContainer{
+display: flex;
+justify-content: left;
+gap: 10px;
+padding: 10px;
+}
+.huLabel{
+    background-color: rgb(19, 122, 122);
+    width: 150px;
+    height: 30px;
+    font-weight: 400;
+    padding-top: 3px;
+}
