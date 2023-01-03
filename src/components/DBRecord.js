@@ -16,7 +16,7 @@ const DBRecord = () => {
         <form method="GET" className={DBR.woForm}>
         <div className={DBR.worFormBody}>
             <div className={DBR.worFormRow1}>
-            <div className={DBR.fr}> <label htmlFor="">Work Order Number</label></div>
+            <div className={DBR.fr}> <label htmlFor="" style={{paddingLeft:"4px"}}>Work Order Number</label></div>
             </div>
             <div className={DBR.worFormRow1}>
               <div className={DBR.fr}><input type="text" /></div>

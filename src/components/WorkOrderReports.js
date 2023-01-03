@@ -14,7 +14,7 @@ const WorkOrderReports = () => {
     <>
         <div className={WOR.worContainer}>
         <div className={WOR.TObody} >
-        <form method="GET" className={WOR.woForm}>
+        <form  className={WOR.woForm}>
         <div className={WOR.worFormBody}>
             <div className={WOR.worFormRow1}>
               <div className={WOR.fr}> <label htmlFor="">Transformation Site</label></div>
@@ -36,13 +36,15 @@ const WorkOrderReports = () => {
                   </div>
                   <div className={WOR.fr}><input type="text" /></div>
                   <div className={WOR.fr}><input type="text" /></div>
-                  <div className={WOR.fr}><select id="status" name="status">
+                  <div className={WOR.fr}>
+                        <select id="status" name="status">
                                 <option value="111"> <input type="checkbox" /> CANCEL</option>
                                 <option value="222"><input type="checkbox" />COMPLETED</option>
                                 <option value="333"><input type="checkbox" />CREATED</option>
                                 <option value="444"><input type="checkbox" />IN-PROCESS</option>
                                 <option value="444"><input type="checkbox" />ON-HOLD</option>
-                        </select></div>
+                        </select>
+                  </div>
                   <div className={WOR.fr}><input type="text" /></div>
                   <div className={WOR.fr}><input type="text" /></div>
                   <div className={WOR.fr}><input type="date" onFocus="(this.type='date')" /></div>

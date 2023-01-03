@@ -24,10 +24,12 @@ display: grid;
 grid-template-columns: 160px 150px 160px 150px 160px 150px 160px 150px;
 column-gap: 10px;
 }
+
+@import url('https://fonts.googleapis.com/css2?family=Saira+Condensed:wght@300&display=swap');
 .fr>label{
-    font-family:sans-serif;
-    font-size: small;
-    font-weight: 500;
+    font-family: 'Saira Condensed', sans-serif;
+    /* font-size: small; */
+    font-weight: 600;
     color: black;
     padding-left: 7px;
 }
@@ -41,27 +43,27 @@ column-gap: 10px;
     width:150px;
     font-family:Arial, Helvetica, sans-serif;
     border-radius: 10px;
-    border: 2px solid grey;
+    border: 2px ridge rgba(192, 192, 192, 0.44);
 }
-.fr>input:hover{
-    color: white;
-    background-color: grey ;
+/* .fr>input:hover{
+    
     cursor: pointer;
     border: 2px solid white;
-}
+} */
 .fr>select{
+    font-family: sans-serif;
     width:150px;
     height:30px;
     border-radius: 10px;
-    border: 2px solid grey;
+    border: 2px ridge rgba(192, 192, 192, 0.44);
     font-size: small;
 }
-.fr>select:hover{
+/* .fr>select:hover{
     color: white;
     background-color: grey ;;
     cursor: pointer;
     border: 2px solid white;
-}
+} */
 
 
 .searchbtn{

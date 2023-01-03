@@ -32,10 +32,11 @@
     font-weight: bold;
     }
 
+    @import url('https://fonts.googleapis.com/css2?family=Archivo+Narrow:wght@600&display=swap');
 .tblcontent th{
     color: rgb(255, 255, 255);
     font-size: 10px;
-    font-family: 'PT Serif', serif;
+    font-family: 'Archivo Narrow', sans-serif;
     letter-spacing: 1px;
     border-left: 1px solid rgb(125, 125, 125);
 }

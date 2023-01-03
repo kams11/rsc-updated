@@ -1,13 +1,161 @@
+.woecontainer{
+    width: 100%;
+    min-height: 100vh;
+    max-height: 200vh;
+    background-image: url(https://img.freepik.com/free-vector/stylish-white-background-with-diagonal-lines_1017-33199.jpg);
+    background-size: cover;
+    background-repeat: repeat;
+}
+.title{
+    color: blueviolet;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
 .huContainer{
-display: flex;
-justify-content: left;
-gap: 10px;
-padding: 10px;
+    display: inline;
+    position: absolute;
+    top: 45px;
+    left: 20px;
 }
 .huLabel{
     background-color: rgb(19, 122, 122);
     width: 150px;
     height: 30px;
+    color: white;
     font-weight: 400;
     padding-top: 3px;
+    border-radius: 2px;
+    margin-right: 15px;
 }
+.btnCon{
+    display: inline-block;
+    margin-bottom: -47px;
+    margin-right: 300px;
+}
+
+/* WOE-Form css starts here------- */
+.t1conatiner{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.woeForm{
+    display: block;
+    justify-content: center;
+    margin-top: 30px;
+    padding-left: 10px;
+}
+
+.btnClear{
+    width:80px;
+    border-radius:8px;
+    background-color:rgb(196, 25, 25);
+    border:none;
+    font-weight: 600;
+    color:white;
+    margin-left: 10px;
+}
+.btnClear:hover{
+    background-color:red;
+    color:white;
+    border-radius:8px;
+    font-weight: 600;
+}
+.btnppl{
+    width: 140px;
+    border: none;
+    border-radius:4.5px;
+    background-color:green;
+    color:white;
+    margin-left: 10px;
+}
+.btnppl:hover{
+    background-color:rgb(32, 247, 32);
+    color:white;
+    border-radius:8px;
+    font-weight: 600;
+}
+
+.formBody{
+    width: 100%;
+    display: grid;
+    grid-template-rows: 36px 40px;
+    justify-content: left;
+}
+.formLabel1{
+    width: 100%;
+display: grid;
+grid-template-columns: 160px 150px 160px 150px 160px 150px 160px 150px;
+column-gap: 10px;
+text-align: left;
+padding-left: 10px;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Arvo&family=Yanone+Kaffeesatz:wght@300;400&display=swap');
+.fr>label{
+    font-family: 'Arvo', serif;
+font-family: 'Yanone Kaffeesatz', sans-serif;
+    font-size: small;
+    letter-spacing: 1px;
+    font-weight: 600;
+    color: black;
+    text-align: left;
+}
+.formData1{
+width: 100%;
+display: grid;
+grid-template-columns: 160px 150px 160px 150px 160px 150px 160px 150px;
+column-gap: 10px;
+}
+.iconInp{
+    width:150px;
+    background-color: white;
+    font-family:Arial, Helvetica, sans-serif;
+    border-radius: 10px;
+    border: 2px ridge rgba(192, 192, 192, 0.267);
+}
+.iconInp>input{
+    width: 100px;
+    border: none;
+}
+
+.fr>input{
+    width:150px;
+    font-family:Arial, Helvetica, sans-serif;
+    border-radius: 10px;
+    border: 2px ridge rgba(192, 192, 192, 0.267);
+}
+.fr>input:hover{
+    color: grey;
+    background-color: rgb(240, 240, 240) ;
+    cursor: pointer;
+    border: 2px ridge rgba(192, 192, 192, 0.267);
+}
+.fr>select{
+    width:150px;
+    height:30px;
+    border-radius: 10px;
+    border: 2px ridge rgba(192, 192, 192, 0.267);
+    font-size: small;
+}
+.fr>select:hover{
+    color: grey;
+    background-color: rgb(240, 240, 240) ;
+    cursor: pointer;
+    border: 2px ridge rgba(192, 192, 192, 0.267);
+}
+
+.formLabel2{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 160px 150px 160px 150px 160px 150px 160px 150px;
+    column-gap: 10px;
+    text-align: left;
+    padding-left: 10px;
+}
+.formData2{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 160px 150px 160px ;
+    column-gap: 10px;
+    }
