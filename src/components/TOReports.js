@@ -28,17 +28,18 @@ const TOReports = () => {
             </div>
 
             <div className={TOR.torFormRow2}>
-              <div className={TOR.fr} ><input type="text" /></div>
-              <div className={TOR.fr}><input type="text" /></div>
-              <div className={TOR.fr}><input type="text" /></div>
-              <div className={TOR.fr}><select id="sites" name="sites">
+              <div className={TOR.fr} ><input type="text" className={TOR.torInp}/></div>
+              <div className={TOR.fr}><input type="text" className={TOR.torInp}/></div>
+              <div className={TOR.fr}><input type="text" className={TOR.torInp}/></div>
+              <div className={TOR.fr}>
+                <select id="sites" name="sites" className={TOR.torSel}>
                                 <option value="111">Courcelles,Belgium</option>
                                 <option value="222">Saab</option>
                                 <option value="333">Fiat</option>
                                 <option value="444">Audi</option>
                         </select></div>
               <div className={TOR.fr}>
-              <select id="status" name="status">
+              <select id="status" name="status" className={TOR.torSel}>
                                 <option value="111"> <input type="checkbox" /> CANCEL</option>
                                 <option value="222"><input type="checkbox" />COMPLETED</option>
                                 <option value="333"><input type="checkbox" />CREATED</option>
@@ -46,12 +47,13 @@ const TOReports = () => {
                                 <option value="444"><input type="checkbox" />ON-HOLD</option>
                         </select>
               </div>
-              <div className={TOR.fr}><input type="text" /></div>
-              <div className={TOR.fr}><input type="text" /></div>
-              <div className={TOR.fr}><input type="date" onFocus="(this.type='date')" /></div>
+              <div className={TOR.fr}><input type="text" className={TOR.torInp}/></div>
+              <div className={TOR.fr}><input type="text" className={TOR.torInp}/></div>
+              <div className={TOR.fr}><input type="date" onFocus="(this.type='date')"className={TOR.torInp} /></div>
               
-
             </div>
+
+            
           </div>          
   </form>
   <div style={{marginTop:"20px",display:"block",justifyContent:"space-between"}}>

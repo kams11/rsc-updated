@@ -10,7 +10,7 @@ const WOEtab1 = () => {
         <div className={WOEt1.t1container}>
             <div className={WOEt1.t1title}>
                 <div>
-                    <h4 className={WOEt1.tabTitle}>WORK ORDER DETAILS</h4>
+                    <h4 className={WOEt1.woeTtitle}>WORK ORDER DETAILS</h4>
                 </div>
                 <div>
                     <BsFileEarmarkPdfFill size={20} style={{color:"red"}}/>

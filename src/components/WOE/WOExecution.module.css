@@ -39,6 +39,9 @@
     display: flex;
     justify-content: center;
 }
+.woeTtitle{
+    color: grey
+}
 .woeForm{
     display: block;
     justify-content: center;
@@ -79,20 +82,20 @@
 .formBody{
     width: 100%;
     display: grid;
-    grid-template-rows: 36px 40px;
+    grid-template-rows: 30px 40px;
     justify-content: left;
 }
 .formLabel1{
     width: 100%;
 display: grid;
-grid-template-columns: 160px 150px 160px 150px 160px 150px 160px 150px;
+grid-template-columns:repeat(8,12%);
 column-gap: 10px;
 text-align: left;
-padding-left: 10px;
+padding-left: 5px;
 }
 
 @import url('https://fonts.googleapis.com/css2?family=Arvo&family=Yanone+Kaffeesatz:wght@300;400&display=swap');
-.fr>label{
+.woLbl{
     font-family: 'Arvo', serif;
 font-family: 'Yanone Kaffeesatz', sans-serif;
     font-size: small;
@@ -104,8 +107,8 @@ font-family: 'Yanone Kaffeesatz', sans-serif;
 .formData1{
 width: 100%;
 display: grid;
-grid-template-columns: 160px 150px 160px 150px 160px 150px 160px 150px;
-column-gap: 10px;
+grid-template-columns: repeat(8,12%);
+column-gap: 5px;
 }
 .iconInp{
     width:150px;
@@ -114,31 +117,31 @@ column-gap: 10px;
     border-radius: 10px;
     border: 2px ridge rgba(192, 192, 192, 0.267);
 }
-.iconInp>input{
+.iconInp2{
     width: 100px;
     border: none;
 }
 
-.fr>input{
+.woefInp{
     width:150px;
     font-family:Arial, Helvetica, sans-serif;
     border-radius: 10px;
     border: 2px ridge rgba(192, 192, 192, 0.267);
 }
-.fr>input:hover{
+.woefInp:hover{
     color: grey;
     background-color: rgb(240, 240, 240) ;
     cursor: pointer;
     border: 2px ridge rgba(192, 192, 192, 0.267);
 }
-.fr>select{
+.woefsel{
     width:150px;
     height:30px;
     border-radius: 10px;
     border: 2px ridge rgba(192, 192, 192, 0.267);
     font-size: small;
 }
-.fr>select:hover{
+.woefsel:hover{
     color: grey;
     background-color: rgb(240, 240, 240) ;
     cursor: pointer;
@@ -148,7 +151,7 @@ column-gap: 10px;
 .formLabel2{
     width: 100%;
     display: grid;
-    grid-template-columns: 160px 150px 160px 150px 160px 150px 160px 150px;
+    grid-template-columns: repeat(3,12%);
     column-gap: 10px;
     text-align: left;
     padding-left: 10px;
@@ -156,6 +159,6 @@ column-gap: 10px;
 .formData2{
     width: 100%;
     display: grid;
-    grid-template-columns: 160px 150px 160px ;
+    grid-template-columns: repeat(3,12%) ;
     column-gap: 10px;
     }

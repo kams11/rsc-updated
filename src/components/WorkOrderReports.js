@@ -17,38 +17,38 @@ const WorkOrderReports = () => {
         <form  className={WOR.woForm}>
         <div className={WOR.worFormBody}>
             <div className={WOR.worFormRow1}>
-              <div className={WOR.fr}> <label htmlFor="">Transformation Site</label></div>
-              <div className={WOR.fr}> <label htmlFor="">Transform Order Number</label></div>
-              <div className={WOR.fr}> <label htmlFor="">Ship to Country</label></div>
-              <div className={WOR.fr}> <label htmlFor="">Work Order Status</label></div>
-              <div className={WOR.fr}> <label htmlFor="">Work Order Number</label></div>
-              <div className={WOR.fr}> <label htmlFor="">Date Created</label></div>
-              <div className={WOR.fr}> <label htmlFor="">Work Station</label></div>
-              <div className={WOR.fr}> <label htmlFor="">Product Number</label></div>
+              <div > <label htmlFor="" className={WOR.worlabel}>Transformation Site</label></div>
+              <div > <label htmlFor="" className={WOR.worlabel}>Transform Order Number</label></div>
+              <div > <label htmlFor="" className={WOR.worlabel}>Ship to Country</label></div>
+              <div > <label htmlFor="" className={WOR.worlabel}>Work Order Status </label></div>
+              <div > <label htmlFor="" className={WOR.worlabel}>Work Order Number</label></div>
+              <div > <label htmlFor="" className={WOR.worlabel}>Date Created</label></div>
+              <div > <label htmlFor="" className={WOR.worlabel}>Work Station</label></div>
+              <div > <label htmlFor="" className={WOR.worlabel}>Product Number</label></div>
             </div>
             <div className={WOR.worFormRow2}>
-                  <div className={WOR.fr}><select id="sites" name="sites">
+                  <div ><select id="sites" name="sites" className={WOR.worselect}>
                                 <option value="111">Courcelles,Belgium</option>
                                 <option value="222">Saab</option>
                                 <option value="333">Fiat</option>
                                 <option value="444">Audi</option>
                         </select>
                   </div>
-                  <div className={WOR.fr}><input type="text" /></div>
-                  <div className={WOR.fr}><input type="text" /></div>
-                  <div className={WOR.fr}>
-                        <select id="status" name="status">
-                                <option value="111"> <input type="checkbox" /> CANCEL</option>
-                                <option value="222"><input type="checkbox" />COMPLETED</option>
-                                <option value="333"><input type="checkbox" />CREATED</option>
-                                <option value="444"><input type="checkbox" />IN-PROCESS</option>
-                                <option value="444"><input type="checkbox" />ON-HOLD</option>
+                  <div ><input type="text" className={WOR.worinput}/></div>
+                  <div ><input type="text" className={WOR.worinput}/></div>
+                  <div >
+                        <select id="status" name="status"className={WOR.worselect}>
+                                <option value="111"> <input type="checkbox" className={WOR.worInp}/> CANCEL</option>
+                                <option value="222"><input type="checkbox" className={WOR.worInp}/>COMPLETED</option>
+                                <option value="333"><input type="checkbox" className={WOR.worInp}/>CREATED</option>
+                                <option value="444"><input type="checkbox" className={WOR.worInp}/>IN-PROCESS</option>
+                                <option value="444"><input type="checkbox" className={WOR.worInp}/>ON-HOLD</option>
                         </select>
                   </div>
-                  <div className={WOR.fr}><input type="text" /></div>
-                  <div className={WOR.fr}><input type="text" /></div>
-                  <div className={WOR.fr}><input type="date" onFocus="(this.type='date')" /></div>
-                  <div className={WOR.fr}><input type="text" /></div>
+                  <div ><input type="text" className={WOR.worinput}/></div>
+                  <div ><input type="text" className={WOR.worinput}/></div>
+                  <div ><input type="date" onFocus="(this.type='date')" className={WOR.worinput}/></div>
+                  <div ><input type="text" className={WOR.worinput}/></div>
                         
             </div>
         </div>    

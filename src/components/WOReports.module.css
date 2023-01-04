@@ -18,14 +18,14 @@
 .worFormRow1{
     width: 100%;
 display: grid;
-grid-template-columns: 160px 150px 160px 150px 160px 150px 160px 150px;
-column-gap: 10px;
+grid-template-columns: repeat(8,12%);
+column-gap: 5px;
 text-align: left;
 padding-left: 10px;
 }
 
 @import url('https://fonts.googleapis.com/css2?family=Saira+Condensed:wght@300&display=swap');
-.fr>label{
+.worlabel{
     font-family: 'Saira Condensed', sans-serif;
     font-weight:600;
     color: black;
@@ -34,23 +34,18 @@ padding-left: 10px;
 .worFormRow2{
 width: 100%;
 display: grid;
-grid-template-columns: 160px 150px 160px 150px 160px 150px 160px 150px;
-column-gap: 10px;
+grid-template-columns: repeat(8,12%);
+column-gap: 5px;
 }
 
-.fr>input{
+.worinput{
     width:150px;
     font-family:Arial, Helvetica, sans-serif;
     border-radius: 10px;
     border: 2px ridge rgba(192, 192, 192, 0.44);
 }
-/* .fr>input:hover{
-    color: white;
-    background-color: grey ;
-    cursor: pointer;
-    border: 2px solid white;
-} */
-.fr>select{
+
+.worselect{
     width:150px;
     height:30px;
     font-family: sans-serif;
@@ -58,12 +53,6 @@ column-gap: 10px;
     border: 2px ridge rgba(192, 192, 192, 0.44);
     font-size: small;
 }
-/* .fr>select:hover{
-    color: white;
-    background-color: grey ; 
-    cursor: pointer;
-    border: 2px solid white;
-} */
 
 .searchbtn{
     width: 80px;

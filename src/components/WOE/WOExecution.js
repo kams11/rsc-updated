@@ -15,8 +15,8 @@ const WOExecution = () => {
     <>
         <div className={WOE.woecontainer}>
         
-        <div className={WOE.title}>
-            <h2>Work Order Execution</h2>
+        <div className={WOE.titleCont}>
+            <h2 className={WOE.title}>Work Order Execution</h2>
         </div>
         <div className={WOE.huContainer}>
             <label className={WOE.huLabel} htmlFor="hu"><BsUpcScan size={20} style={{marginBottom:"5px"}}/> HU NUMBER</label>
